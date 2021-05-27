@@ -64,6 +64,7 @@ context('Filter Jobs', () => {
             robotHands.checkboxWithClass('input[name="10-20 kms"]');
             robotHands.clickOnClasswithButtonTagandIndex("button",-1);
 
+            robotEyes.hasLengthForDomClass("class","MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-9 MuiGrid-item MuiGrid-justify-xs-center","div",9)
 
         })
 
